@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import About from "./About";
 import Experience from "./Experience";
-
+import Skills from "./Skills"
 const Home = () => {
   return (
     <>
@@ -23,6 +23,13 @@ const Home = () => {
       <section id = "experience-section"> 
           <Experience/>
       </section>
+
+      <section id = "skills-section">
+          <Skills/>
+      </section>
+
+
+
     </>
   );
 };

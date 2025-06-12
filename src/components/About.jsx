@@ -4,7 +4,7 @@ import profile from "../assets/NathanPhan.jpeg"
 const About = () => {
         return (
         <div className="flex flex-col items-center justify-center min-h-screen p-4">
-                <h1 className="flex text-4xl font-bold mb-15 text-green-600 justify-center">About</h1>
+                <h1 className="flex text-4xl font-bold mb-10 text-green-600 justify-center">About</h1>
 
 
                 {/* Two column layout*/}
