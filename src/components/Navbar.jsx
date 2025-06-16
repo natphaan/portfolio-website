@@ -44,9 +44,9 @@ const Navbar = () => {
                 <ul className="flex space-x-4">
                         <li><a href="/" className="text-white hover:text-white">Home</a></li>
                         <li><a href="#about-section" className="text-white hover:text-white">About</a></li>
-                        <li><a href="/Experience" className="text-white hover:text-white">Experience</a></li>
+                        <li><a href="#experience-section" className="text-white hover:text-white">Experience</a></li>
                         {/* <li><a href="/Projects" className="text-white hover:text-white">Projects</a></li> */}
-                        <li><a href="/Skills" className="text-white hover:text-white">Skills</a></li>
+                        <li><a href="#skills-section" className="text-white hover:text-white">Skills</a></li>
                 </ul>
         </div>
         </nav>

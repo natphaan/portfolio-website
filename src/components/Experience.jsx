@@ -1,5 +1,7 @@
 import ctc from "../assets/CTCYYCLogo_Cropped.png"
 import kumon from "../assets/kumonLogo.png"
+import FadeInFrom from "./FadeInFrom"
+import FadeInFromLeft from "./FadeInFromLeft";
 
 
 const Experience = () => {
@@ -8,6 +10,9 @@ const Experience = () => {
                         <h1 className="text-4xl font-bold mb-10 text-white text-center animate-pulse"> Experience </h1>
                         <div className = "w-full max-w-4xl lg:max-w-5xl" id = "experience-section">
                                 <div>
+
+                                        <FadeInFrom>
+
                                         <ul className = "flex flex-row justify-around items-center py-8 px-3">
                                                 <li> 
                                                         <img 
@@ -17,17 +22,20 @@ const Experience = () => {
                                                         />
                                                 </li>
                                                 <div>
-                                                        <h3 className = "text-black mb-4 text-2xl font-extrabold"> Code the Change YYC </h3>
-                                                        <h3 className = "text-black text-xl mb-1"> Co-President</h3>
-                                                        <h3 className = "text-gray-500"> January 2025 - Present </h3>
-                                                        <h3 className = "text-gray-500"> University of Calgary </h3>
+                                                        <h3 className = "text-white mb-4 text-2xl font-extrabold"> Code the Change YYC </h3>
+                                                        <h3 className = "text-white text-xl mb-1"> Co-President</h3>
+                                                        <h3 className = "text-shadow-white"> January 2025 - Present </h3>
+                                                        <h3 className = "text-shadow-white"> University of Calgary </h3>
                                                 </div>
 
 
                                         </ul>
+                                        </FadeInFrom>
                                 </div>
                         
                                 <div>
+
+                                        <FadeInFromLeft>
                                         <ul className = "flex flex-row justify-around items-center py-8 px-3"> 
                                                 <li>
                                                         <img
@@ -38,12 +46,13 @@ const Experience = () => {
 
                                                 </li>
                                                 <div>
-                                                        <h3 className = "text-black mb-4 text-2xl font-extrabold"> Kumon North America</h3>
-                                                        <h3 className = "text-black text-xl mb-1"> Chief Assistant </h3>
-                                                        <h3 className = "text-gray-500"> July 2018 - August 2024 </h3>
-                                                        <h3 className = "text-gray-500"> Chestermere, AB </h3>
+                                                        <h3 className = "text-white mb-4 text-2xl font-extrabold"> Kumon North America</h3>
+                                                        <h3 className = "text-white text-xl mb-1"> Chief Assistant </h3>
+                                                        <h3 className = "text-shadow-white"> July 2018 - August 2024 </h3>
+                                                        <h3 className = "text-shadow-white"> Chestermere, AB </h3>
                                                 </div>
                                         </ul>
+                                        </FadeInFromLeft>
                                         
                                 </div>
 

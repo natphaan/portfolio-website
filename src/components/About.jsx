@@ -1,4 +1,5 @@
-import profile from "../assets/NathanPhan.jpeg"
+import profile from "../assets/NathanPhan.jpeg";
+import FadeIn from "./FadeIn";
 
 
 const About = () => {
@@ -10,6 +11,8 @@ const About = () => {
                 {/* Two column layout*/}
                 <div className = "flex flex-col md:flex-row gap-8 w-full max-w-screen-xl lg:max-w-5xl items-center md:items-start">
                         {/* this is the left column/half */}
+
+                        <FadeIn>
                         <div className = "bg-gray-600 flex justify-center items-center text-black w-full max-w-sm h-64 md:h-80 lg:h-96 rounded-lg">
                                 <img
                                 src = {profile}
@@ -17,6 +20,7 @@ const About = () => {
                                 className = "object-cover w-full h-full rounded-lg"
                                 />
                         </div>
+                        </FadeIn>
 
                         {/* this is the right column/half */}
                         <div className = "w-full md:w-1/2">
