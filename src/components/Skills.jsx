@@ -39,7 +39,7 @@ const Skills = () => {
                                         <img
                                         src = {skill.iconSrc}
                                         alt = {`${skill.name} icon`}
-                                        className = "w-12 h-12 sm:w-16 sm:h-16 mb-3 object-contain"
+                                        className = "wa-12 h-12 sm:w-16 sm:h-16 mb-3 object-contain"
                                         />
                                         <p className = "mt-2 text-sm font-medium text-gray-700 text-center"> 
                                             {skill.name}
