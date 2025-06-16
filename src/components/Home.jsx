@@ -13,9 +13,9 @@ const Home = () => {
 
 
       {/* {main section of Home} */}
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <h1 className="text-4xl font-bold m-12 text-green-600 animate-typewriter">Hi, my name is Nathan! </h1>
-        <CircleArrowDown color = "green"  className="size-6 animate-bounce mt-20"/>
+      <div className="flex flex-col items-center justify-center min-h-screen bg-[url(/blob-scene-haikei.svg)] bg-no-repeat bg-cover bg-center">
+        <h1 className="text-4xl font-bold m-12 text-white animate-typewriter">Hi, my name is Nathan! </h1>
+        <CircleArrowDown color = "white"  className="size-6 animate-bounce mt-20"/>
 
 
 

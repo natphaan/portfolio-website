@@ -77,6 +77,8 @@ button:focus-visible {
   }
 }
 
+
+
 .animate-typewriter {
   overflow: hidden;
   white-space: nowrap;
@@ -84,7 +86,9 @@ button:focus-visible {
   border-right-style: solid;
   border-right-color: transparent;
   width: 0ch;
-  animation: typewriter 1.5s steps(22, end) 1s forwards, blink-and-hide-cursor 0.8s steps(2, start) 1s 6 forwards;
+  animation: 
+  typewriter 1.5s steps(22, end) 1s forwards, 
+  blink-and-hide-cursor 0.8s steps(2, start) 1s 6 forwards;
 }
 
 

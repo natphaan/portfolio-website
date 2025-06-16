@@ -4,8 +4,8 @@ import kumon from "../assets/kumonLogo.png"
 
 const Experience = () => {
         return (
-                <div className="flex flex-col items-center justify-center min-h-screen p-4">
-                        <h1 className="text-4xl font-bold mb-10 text-green-600 text-center"> Experience </h1>
+                <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-[#00CC8E] ">
+                        <h1 className="text-4xl font-bold mb-10 text-white text-center animate-pulse"> Experience </h1>
                         <div className = "w-full max-w-4xl lg:max-w-5xl" id = "experience-section">
                                 <div>
                                         <ul className = "flex flex-row justify-around items-center py-8 px-3">

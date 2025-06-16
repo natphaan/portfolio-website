@@ -3,8 +3,8 @@ import profile from "../assets/NathanPhan.jpeg"
 
 const About = () => {
         return (
-        <div className="flex flex-col items-center justify-center min-h-screen p-4">
-                <h1 className="flex text-4xl font-bold mb-10 text-green-600 justify-center animate-pulse">About</h1>
+        <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-[#00CC8E]">
+                <h1 className="flex text-4xl font-bold mb-10 text-white justify-center animate-pulse">About</h1>
 
 
                 {/* Two column layout*/}
@@ -20,10 +20,10 @@ const About = () => {
 
                         {/* this is the right column/half */}
                         <div className = "w-full md:w-1/2">
-                                <p className = "text-black text-lg mb-5">
+                                <p className = "text-white text-lg mb-5">
                                 I am a third-year computer science student studying at the University of Calgary. Currently I'm interested in full-stack development and embedded systems which is a current reflection of my projects so far! I am passionate about leveraging technology to drive social change and create meaningful global impact 🌎 
                                 </p>
-                                <p className = "text-black text-lg ">
+                                <p className = "text-white text-lg ">
                                 In my free time, I love to cook, watch the Raptors, and play soccer!
                                 </p>
 
