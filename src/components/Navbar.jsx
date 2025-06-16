@@ -1,9 +1,12 @@
 import { Newspaper } from "lucide-react";
+import { Linkedin } from "lucide-react";
+import {Github} from "lucide-react"
+import {Mail} from "lucide-react"
 
 
 const Navbar = () => {
         return (
-                <nav className="bg-white p-4">
+                <nav className="bg-white p-5">
                 <div className="container mx-auto flex justify-between items-center">
 
 
@@ -12,9 +15,26 @@ const Navbar = () => {
                 <ul className="flex space-x-4">
 
                                 <li> 
-                                <a href = "/resume.pdf" target = "_blank" rel = "noopener noreferrer" className = "flex items-center">
-                                        <Newspaper color = "black"/> 
-                                </a>
+                                <a href = "/resume.pdf" target = "_blank" rel = "noopener noreferrer">
+                                        <Newspaper color = "green"/> 
+                                </a>        
+                                </li>
+                                <li>
+                                        <a href = "https://www.linkedin.com/in/natphaan">
+                                                <Linkedin color="green"/>
+                                        </a>
+                                </li>
+
+                                <li>
+                                        <a href = "https://github.com/natphaan">
+                                                <Github color = "green"/>
+                                        </a>
+                                </li>
+
+                                <li>
+                                        <a href = "mailto:nathanphan22@gmail.com" target = "_blank" rel = "noopener noreferrer">
+                                               <Mail color = "green"/> 
+                                        </a>
                                         
                                 </li>
                 </ul>
