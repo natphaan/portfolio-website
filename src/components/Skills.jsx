@@ -28,8 +28,8 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section className="py-16 md:py-24 min-h-screen flex flex-col items-center justify-center"> 
-        <h2 className = "text-4xl font-bold mb-10 text-green-600 text-center">
+    <section className="py-16 md:py-24 min-h-screen flex flex-col items-center justify-center bg-[#00CC8E]"> 
+        <h2 className = "text-4xl font-bold mb-10 text-white text-center animate-pulse">
                 Skills and Tools
         </h2>
         <div className = "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl mx-auto px-4">
