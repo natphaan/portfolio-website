@@ -14,7 +14,7 @@ const Home = () => {
 
       {/* {main section of Home} */}
       <div className="flex flex-col items-center justify-center min-h-screen bg-[url(/blob-scene-haikei-3.svg)] bg-no-repeat bg-cover bg-center">
-        <h1 className="text-1xl font-bold m-12 text-white animate-typewriter sm:text-4xl text-center break-words ">Hi, my name is Nathan! </h1>
+        <h1 className="text-sm sm:text-4xl font-bold my-12 mx-6 text-white animate-typewriter text-center whitespace-normal break-words">Hi, my name is Nathan! </h1>
         <a href = "#about-section" aria-label = "scroll to about section">
           <CircleArrowDown color = "white"  className="size-6 animate-bounce mt-20" />
         </a>
