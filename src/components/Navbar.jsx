@@ -7,7 +7,7 @@ import {Mail} from "lucide-react"
 const Navbar = () => {
         return (
                 <nav className="bg-[#00CC8E] p-5">
-                <div className="container mx-auto flex justify-between items-center">
+                <div className="container mx-auto flex justify-between items-center sm:flex-row sm:justify-between">
 
 
 

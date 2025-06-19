@@ -5,7 +5,7 @@ import FadeIn from "./FadeIn";
 const About = () => {
         return (
         <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-[#00CC8E]">
-                <h1 className="flex text-4xl font-bold mb-10 text-white justify-center animate-pulse">About</h1>
+                <h1 className="flex text-4xl font-bold mb-10 text-white justify-center">About</h1>
 
 
                 {/* Two column layout*/}
